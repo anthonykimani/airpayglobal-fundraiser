@@ -48,9 +48,9 @@ function Modal({ showModal, setShowModal }) {
                     management directorate.
                   </h3>
                   <form className="flex flex-col justify-around">
-                    <input type="text" placeholder="full name" className="border border-[#14183E] p-2 m-2 w-[400px]" />
-                    <input type="email" placeholder="email" className="border border-[#14183E] p-2 m-2 w-[400px]" />
-                    <input type="number" placeholder="amount to donate" className="border border-[#14183E] p-2 m-2 w-[400px]" />
+                    <input type="text" placeholder="full name" className="border border-[#14183E] p-2 m-2 w-[400px] rounded " />
+                    <input type="email" placeholder="email" className="border border-[#14183E] p-2 m-2 w-[400px] rounded " />
+                    <input type="number" placeholder="amount to donate" className="border border-[#14183E] p-2 m-2 w-[400px] rounded " />
                     <input type="submit" value="Donate Now" className=" bg-[#007BFF] text-white py-2 px-4 rounded mx-2 font-extrabold w-[200px]" />
                   </form>
                 </div>
