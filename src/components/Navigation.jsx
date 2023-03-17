@@ -44,7 +44,7 @@ const Navigation = () => {
       </nav>
       {/* Mobile Menu */}
       {showMenu ? (
-        <ul className="absolute flex flex-col md:hidden h-screen w-screen bg-[#12141D] ">
+        <ul className="absolute flex flex-col md:hidden h-screen w-screen bg-white ">
           <li className="m-3 list-none">Home</li>
           <li className="m-3 list-none">Features</li>
           <li className="m-3 list-none">Contact Us</li>
