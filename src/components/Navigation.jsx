@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import AirPayLogo from "../assets/svg/airpay-logo.svg";
 import WecLogo from '../assets/svg/wec-logo.svg';
 
@@ -21,8 +22,10 @@ const Navigation = () => {
         {/* desktop menu */}
         <ul className="hidden md:flex">
           <li className="mx-8 list-none font-bold">Home</li>
-          <li className="mx-8 list-none">Donations</li>
-          <li className="mx-8 list-none">About Us</li>
+        
+          <li className="mx-8 list-none"><a href="https://wec.airpaygiving.com/#">Donations</a></li>
+        
+          <li className="mx-8 list-none"><a href="">About Us</a></li>
           <li className="mx-8 list-none">Conferences</li>
         </ul>
 
